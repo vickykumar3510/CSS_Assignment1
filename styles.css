@@ -1,0 +1,255 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-icons i {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-icons i:hover {
+    color: #0077ff;
+}
+
+.moonBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribeBtn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section1 {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ghost1Img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.ghost1Text {
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.mainCard {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 100%;
+    max-height: 400px;
+    object-fit: fill;
+    max-width: 700px;
+}
+
+.insideCard {
+    max-width: 700px;   
+}
+
+.insideCardP {
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.insideCardH {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.insideCardPara {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.smallLogo {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.otherCard {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    gap: 15px;
+}
+
+.smallP {
+    color: grey;
+    font-size: 14px;
+}
+
+.logoTextRow {
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+    
+}
+
+.rightText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+.divLine {
+    height: 10px;
+    background-color: grey;
+    margin: 0px 80px;
+}
+
+.sectionMain {
+    display: flex;
+    gap: 20px;
+    margin: 0px 50px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.coloredImg {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    height: 290px;
+}
+
+.newOtherCard {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.leftLogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;  /**/
+}
+
+.rightLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.sectionInside {
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.twoDivSection {
+    display: flex;
+    gap: 20px;
+    margin: 0px 50px;
+    padding: 50px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.newColorImg {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    box-sizing: border-box;
+      /**/
+}
+
+.insideTwoDiv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.twoDivLeft {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.twoDivRigght {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionLine {
+    color: blue;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.headingLine {
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.paraLine {
+    color: grey;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.coloredDiv {
+    margin-left: 90px;
+}
