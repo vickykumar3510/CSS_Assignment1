@@ -207,10 +207,9 @@ header {
     border-radius: 10px;
     width: 100%;
     max-width: 800px;
-    max-height: 500px;
-    object-fit: contain;
+    height: 500px;
+    object-fit: cover;
     box-sizing: border-box;
-      /**/
 }
 
 .insideTwoDiv {
